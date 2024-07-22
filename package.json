@@ -1,0 +1,23 @@
+{
+  "name": "tsx-vitest-tsup",
+  "version": "1.0.0",
+  "description": "simple boilerplate for node server",
+  "main": "dist/index.js",
+  "repository": "github.com/2wheeh/tsx-vitest-tsup",
+  "author": "wnhlee <2wheeh@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "tsup": "^8.2.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^2.0.3"
+  }
+}
